@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sangam Praharshini | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+    <!-- Typed JS -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            BuildWithPraha
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <div class="menu-btn" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <!-- Navigation Links -->
+        <ul class="nav-links" id="menu">
+
+            <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+
+            <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+
+            <li>
+                <a href="assets/resume.pdf" class="resume-btn" download>
+                    Resume
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+</header>
+    </header>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero" id="home">
+
+        <div class="circle circle1"></div>
+        <div class="circle circle2"></div>
+        <div class="circle circle3"></div>
+
+        <div class="hero-text">
+
+            <h3>Hello, I'm 👋</h3>
+
+            <h1>
+                Sangam <span>Praharshini</span>
+            </h1>
+
+            <h2>
+                <span id="typing"></span>
+            </h2>
+
+            <p>
+                Passionate about building beautiful websites,
+                AI-powered applications and solving real-world
+                problems through technology.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn1">
+                    🚀 Explore My Work
+                </a>
+
+                <a href="assets/resume.pdf" class="btn2" download>
+                    📄 Download Resume
+                </a>
+
+            </div>
+
+            <div class="social-icons">
+
+                <a href="#">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fas fa-envelope"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+    <img src="assets/icons/projects/certificates/images/profile.jpg" alt="Sangam Praharshini">
+</div>
+
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about">
+
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-container">
+
+            <div class="about-image">
+    <img src="assets/icons/projects/certificates/images/profile.jpg" alt="About Me">
+</div>
+
+            <div class="about-content">
+
+                <h3>Hi, I'm Sangam Praharshini 👋</h3>
+
+                <p>
+                    I'm a Computer Science Engineering student specializing in Artificial Intelligence and Machine Learning.
+                    I enjoy creating responsive websites, learning new technologies,
+                    and building projects that solve real-world problems.
+                </p>
+
+                <div class="stats">
+
+                    <div class="stat-card">
+                        <h1>20+</h1>
+                        <p>Projects</p>
+                    </div>
+
+                    <div class="stat-card">
+                        <h1>10+</h1>
+                        <p>Technologies</p>
+                    </div>
+
+                    <div class="stat-card">
+                        <h1>5+</h1>
+                        <p>Certificates</p>
+                    </div>
+
+                    <div class="stat-card">
+                        <h1>100%</h1>
+                        <p>Passion</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills">
+
+        <h2 class="section-title">My Skills</h2>
+
+        <p class="skills-subtitle">
+            Technologies and tools I use to build modern applications.
+        </p>
+
+        <div class="skills-grid">
+
+            <!-- Languages -->
+
+            <div class="skill-box">
+
+                <div class="skill-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+
+                <h3>Languages</h3>
+
+                <div class="skill-tags">
+
+                    <span>Python</span>
+                    <span>Java</span>
+                    <span>C</span>
+
+                </div>
+
+            </div>
+
+            <!-- Web Development -->
+
+            <div class="skill-box">
+
+                <div class="skill-icon">
+                    <i class="fas fa-globe"></i>
+                </div>
+
+                <h3>Web Development</h3>
+
+                <div class="skill-tags">
+
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+
+                </div>
+
+            </div>
+
+            <!-- Frameworks -->
+
+            <div class="skill-box">
+
+                <div class="skill-icon">
+                    <i class="fab fa-react"></i>
+                </div>
+
+                <h3>Frameworks</h3>
+
+                <div class="skill-tags">
+
+                    <span>React.js</span>
+                    <span>Node.js</span>
+
+                </div>
+
+            </div>
+
+            <!-- Databases -->
+
+            <div class="skill-box">
+
+                <div class="skill-icon">
+                    <i class="fas fa-database"></i>
+                </div>
+
+                <h3>Databases</h3>
+
+                <div class="skill-tags">
+
+                    <span>MongoDB</span>
+                    <span>MySQL</span>
+
+                </div>
+
+            </div>
+
+            <!-- Tools -->
+
+            <div class="skill-box">
+
+                <div class="skill-icon">
+                    <i class="fas fa-screwdriver-wrench"></i>
+                </div>
+
+                <h3>Tools</h3>
+
+                <div class="skill-tags">
+
+                    <span>Git</span>
+                    <span>GitHub</span>
+                    <span>VS Code</span>
+                    <span>Figma</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+        <!-- ================= PROJECTS ================= -->
+
+    <section id="projects">
+
+        <h2 class="section-title">Featured Projects</h2>
+
+        <div class="projects-container">
+
+            <!-- Project 1 -->
+
+            <div class="project-card">
+
+                <img src="assets/images/project1.png" alt="Aura Shopping">
+
+                <div class="project-content">
+
+                    <h3>Aura Shopping</h3>
+
+                    <p>
+                        An AI-powered shopping website with a modern UI,
+                        Firebase authentication, product recommendations,
+                        and responsive design.
+                    </p>
+
+                    <div class="project-tech">
+
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Firebase</span>
+
+                    </div>
+
+                    <div class="project-buttons">
+
+                        <a href="#" target="_blank">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+
+                        <a href="#" target="_blank">
+                            <i class="fas fa-arrow-up-right-from-square"></i>
+                            Live Demo
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Project 2 -->
+
+            <div class="project-card">
+
+                <img src="assets/images/project2.png" alt="Portfolio">
+
+                <div class="project-content">
+
+                    <h3>Portfolio Website</h3>
+
+                    <p>
+                        A premium responsive portfolio built with HTML,
+                        CSS and JavaScript featuring animations,
+                        beautiful UI and smooth scrolling.
+                    </p>
+
+                    <div class="project-tech">
+
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+
+                    </div>
+
+                    <div class="project-buttons">
+
+                        <a href="#" target="_blank">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+
+                        <a href="#" target="_blank">
+                            <i class="fas fa-arrow-up-right-from-square"></i>
+                            Live Demo
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+<section id="contact">
+
+    <h2 class="section-title">Let's Connect</h2>
+
+    <p class="skills-subtitle">
+        I'm always open to internships, collaborations, and exciting opportunities.
+    </p>
+
+    <div class="contact-container">
+
+        <!-- Email -->
+
+        <div class="contact-card">
+
+            <i class="fas fa-envelope"></i>
+
+            <h3>Email</h3>
+
+            <p>
+                <a href="mailto:sangampraharshini55@gmail.com">
+                    sangampraharshini55@gmail.com
+                </a>
+            </p>
+
+        </div>
+
+        <!-- LinkedIn -->
+
+        <div class="contact-card">
+
+            <i class="fab fa-linkedin"></i>
+
+            <h3>LinkedIn</h3>
+
+            <p>
+                <a href="https://www.linkedin.com/in/praharshini-sangam-5355a6379/"
+                   target="_blank">
+                    linkedin.com/in/praharshini-sangam-5355a6379
+                </a>
+            </p>
+
+        </div>
+
+        <!-- GitHub -->
+
+        <div class="contact-card">
+
+            <i class="fab fa-github"></i>
+
+            <h3>GitHub</h3>
+
+            <p>
+                <a href="https://github.com/sangampraharshini"
+                   target="_blank">
+                    github.com/sangampraharshini
+                </a>
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <h2>Sangam Praharshini</h2>
+
+        <p>
+            AI & ML Student • Full Stack Developer • Frontend Enthusiast
+        </p>
+
+        <div class="footer-icons">
+
+            <a href="#">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <a href="#">
+                <i class="fab fa-linkedin"></i>
+            </a>
+
+            <a href="#">
+                <i class="fas fa-envelope"></i>
+            </a>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 Sangam Praharshini. All Rights Reserved.
+        </p>
+
+    </footer>
+
+    <!-- ================= SCRIPT ================= -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
