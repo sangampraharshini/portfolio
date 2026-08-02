@@ -895,8 +895,17 @@ footer h2{
     }
 
     .hero-text h2{
-        font-size:34px;
-    }
+    font-size:34px;
+    line-height:1.3;
+    min-height:50px;
+}
+#typing{
+    display:inline-block;
+    max-width:100%;
+    white-space:normal;
+    overflow-wrap:break-word;
+    word-break:break-word;
+}
 
     .hero-text p{
         font-size:18px;
@@ -1049,119 +1058,4 @@ footer h2{
 
     color:white;
 }
-/* ===========================
-   MOBILE RESPONSIVE
-=========================== */
 
-@media (max-width:768px){
-
-    .navbar{
-        padding:15px 20px;
-        flex-direction:row
-        gap:15px;
-    }
-
-    .nav-links{
-        gap:18px;
-        flex-wrap:wrap;
-        justify-content:center;
-    }
-
-    .hero{
-        text-align:center;
-        padding:40px 20px;
-    }
-
-    .hero-text{
-        width:100%;
-    }
-
-    .hero-text h1{
-        font-size:52px;
-        line-height:1.1;
-    }
-
-    .hero-text h2{
-        font-size:28px;
-    }
-
-    .hero-text p{
-        font-size:18px;
-    }
-
-    .hero-image{
-        width:100%;
-        margin-bottom:30px;
-    }
-
-    .hero-image img{
-        width:260px;
-        height:340px;
-    }
-
-    .hero-buttons{
-        flex-direction:column;
-        align-items:center;
-        gap:15px;
-    }
-
-    .btn1,
-    .btn2{
-        width:240px;
-        text-align:center;
-    }
-
-    .social-icons{
-        justify-content:center;
-    }
-}
-/* ================= MOBILE NAVBAR ================= */
-
-.menu-btn{
-    display:none;
-    font-size:28px;
-    color:#EC4899;
-    cursor:pointer;
-}
-
-@media (max-width:768px){
-
-    .navbar{
-        display:flex;
-        justify-content:space-between;
-        align-items:center;
-        padding:18px 20px;
-        position:relative;
-    }
-
-    .logo{
-        font-size:32px;
-    }
-
-    .menu-btn{
-        display:block;
-    }
-
-    .nav-links{
-        display:none;
-        position:absolute;
-        top:80px;
-        left:0;
-        width:100%;
-        background:#fff;
-        flex-direction:column;
-        align-items:center;
-        gap:20px;
-        padding:25px 0;
-        box-shadow:0 10px 25px rgba(0,0,0,.08);
-        z-index:999;
-    }
-
-    .nav-links.active{
-        display:flex;
-    }
-
-    .resume-btn{
-        margin-top:10px;
-    }
-}
