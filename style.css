@@ -1016,9 +1016,12 @@ footer h2{
     }
 
     .hero-text p{
-        font-size:17px;
-        max-width:100%;
-    }
+    font-size:17px;
+    line-height:1.8;
+    max-width:340px;
+    margin:25px auto;
+    text-align:left;
+}
 
     .hero-buttons{
         flex-direction:column;
